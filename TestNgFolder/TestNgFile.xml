@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNg Suite">
+	<test name="Test Annotations">
+			<groups>
+				<run>
+					<include name="1"/>
+				</run>
+			</groups>
+			<classes>
+			<class name="TestNgGrouping" />
+		</classes>
+	</test>
+</suite>
